@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(111, 96, 70, 0);
+}
+
+h1 {
+   margin-bottom: 15px;
+text-align: center;
+color: #f62008;
+font-size: 50px;
+}
+
+.part1 {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    border-color: #f62008;
+}
+.part2 {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    border-color: #f62008;
+}
+
+.part3 {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    border-color: #f62008;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid rgb(186, 131, 19);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.virat {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #13efe4c4;
+
+}
+
+.ABD {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #4bd11ac4;
+
+}
+
+.gayle {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+     margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #20e0eec4;
+
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: rgb(243, 239, 239);
+    font-family: Helvetica;
+    color: black;
+    margin: 3px ;
+    height: 150px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/*desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
